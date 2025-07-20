@@ -1,0 +1,20 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac/Linux hidden files (optional)
+.DS_Store
+
+# Environment variables (if you later add a .env file)
+.env
+.qodo/
