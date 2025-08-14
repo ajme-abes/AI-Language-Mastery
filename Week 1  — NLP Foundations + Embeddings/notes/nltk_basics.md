@@ -113,3 +113,37 @@ nltk.help.upenn_tagset()
 
     print(result)
 ```
+### Chinking
+
+- **Chinking** is the **opposite of chunking**.
+- **Chunking** → you define which sequences of POS tags to include as a chunk.
+- **Chinking** → you define which sequences **to exclude** from an existing chunk.
+
+Think of chunking like **"select these words"** and chinking like **"remove these words from what I selected"**.
+
+### NER
+
+**NER** = **Named Entity Recognition**
+
+It’s an **information extraction** task in NLP where we:
+
+1. **Identify** entities in text.
+2. **Classify** them into predefined categories.
+3. 
+
+📌 How NER Works in NLP Pipelines
+
+---
+
+**Step 1: Text preprocessing**
+
+- Tokenization → split into words.
+- POS tagging → understand grammar roles.
+
+**Step 2: Entity recognition**
+
+- Machine learning model / rule-based method finds spans of text that are entities.
+
+**Step 3: Entity classification**
+
+- Assign each entity a category like PERSON, LOCATION, ORGANIZATION, etc.
